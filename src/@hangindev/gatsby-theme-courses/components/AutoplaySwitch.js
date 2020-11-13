@@ -5,7 +5,7 @@ function AutoplaySwitch({ className }) {
     const [{ autoplay }, dispatch] = useAppValue();
     return (
         <div className={className}>
-            <input
+            {/* <input
                 type="checkbox"
                 name="autoplay"
                 checked={autoplay}
@@ -16,7 +16,8 @@ function AutoplaySwitch({ className }) {
                     })
                 }
             />{' '}
-            <small>自動播放</small>
+            <small>自動播放</small> */}
+            {/* 取消可以選擇自動播放 */}
         </div>
     );
 }

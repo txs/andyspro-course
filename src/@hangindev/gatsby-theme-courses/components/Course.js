@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import ThemeCourse from '@hangindev/gatsby-theme-courses/src/components/Course';
 import { usePageValue } from '@hangindev/gatsby-theme-courses/src/context/PageContext';
 
+import { Helmet } from 'react-helmet';
+
 const Message = styled.h1`
   position: absolute;
   top: 4.8rem;
@@ -21,8 +23,20 @@ const Message = styled.h1`
 
 function Course() {
   const { currentCourse } = usePageValue();
+
   return (
     <div>
+      <Helmet>
+        <meta
+          name="og:image"
+          content={currentCourse.coverImage.childImageSharp.fluid.src}
+        />
+        <meta
+          name="twitter:image"
+          content={currentCourse.coverImage.childImageSharp.fluid.src}
+        />
+      </Helmet>
+
       <ThemeCourse />
       {currentCourse.premium && (
         <Message>

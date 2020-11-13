@@ -29,10 +29,12 @@ function CoursesHeader() {
                     完整的課堂資訊與筆記
                 </li>
                 <li>
-                    <span role="img" aria-label="video Camera">
-                        ▶️
-                    </span>{' '}
-                    Youtube 影音教學
+                    <a style={{ color: '#1976D2' }} href="https://www.youtube.com/watch?v=gX3QMlgzRIg&list=PL1aVa65WLc52Aoti_Qhp0T-mgzcFskPve" target="_blank" >
+                        <span role="img" aria-label="video Camera">
+                            ▶️
+                        </span>{' '}
+                        Youtube 影音教學
+                    </a>
                 </li>
 
                 <li>
