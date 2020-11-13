@@ -5,9 +5,9 @@ module.exports = {
         },
     ],
     siteMetadata: {
-        title: `Andys.pro/gramming Courses`,
+        title: `安迪的 PR0 課程`,
         author: `txs`,
-        description: `An Online Coding Courses Platform`,
+        description: `影音線上程式設計課程平台`,
         social: [
             {
                 name: `github`,

@@ -32,7 +32,7 @@ function CoursesHeader() {
                     <span role="img" aria-label="video Camera">
                         ▶️
                     </span>{' '}
-                    Youtube as video host
+                    Youtube 影音教學
                 </li>
 
                 <li>
