@@ -26,7 +26,13 @@ function Course() {
 
   return (
     <div>
+
+      <ThemeCourse />
       <Helmet>
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
         <meta
           name="og:image"
           content={currentCourse.coverImage.childImageSharp.fluid.src}
@@ -36,8 +42,6 @@ function Course() {
           content={currentCourse.coverImage.childImageSharp.fluid.src}
         />
       </Helmet>
-
-      <ThemeCourse />
       {currentCourse.premium && (
         <Message>
           Protected Page Demo <br />

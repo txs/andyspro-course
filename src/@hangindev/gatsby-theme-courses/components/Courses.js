@@ -34,6 +34,10 @@ function Courses() {
           name="twitter:image"
           content={CoverPhoto}
         />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
       </Helmet>
     </>
   );
