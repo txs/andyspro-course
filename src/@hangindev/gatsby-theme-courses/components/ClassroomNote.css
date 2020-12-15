@@ -29,6 +29,10 @@
     font-size: 1rem;
 }
 
+.swiper-slide> h4{
+    font-size: 0.9rem;
+}
+
 .swiper-slide> li{
     line-height: 1.1;
     font-size: 70%;
@@ -39,7 +43,8 @@
 .swiper-slide> p,li{
     margin-bottom: 0.7rem;
 }
-.swiper-slide> pre,code{
+.swiper-slide> pre,
+.swiper-slide> code{
     line-height: 1.1;
     font-size: 90%;
     margin-bottom: 0.8rem;
