@@ -105,16 +105,18 @@ function ClassroomNote({ className }) {
           <SwiperWrapper>
 
             <Swiper
+              // FIX this later, the pagination died after build into static!
+              // pagination={{
+              //   clickable: true,
+              //   type: 'fraction',
+              // }}
 
               slidesPerView='auto'
               centeredSlides='true'
               spaceBetween={50}
 
               navigation
-              pagination={{
-                clickable: true,
-                type: 'fraction',
-              }}
+
               keyboard={{
                 enabled: true,
                 onlyInViewport: true,

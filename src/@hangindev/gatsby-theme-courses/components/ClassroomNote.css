@@ -40,7 +40,8 @@
 .swiper-slide> ul{
     margin-bottom: 0.7rem;
 }
-.swiper-slide> p,li{
+.swiper-slide> p,
+.swiper-slide> li{
     margin-bottom: 0.7rem;
 }
 .swiper-slide> pre,
