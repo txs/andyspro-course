@@ -9,6 +9,7 @@ module.exports = {
         //         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
         //     },
         // },
+        `gatsby-plugin-sass`,
         {
             resolve: `gatsby-plugin-google-gtag`,
             options: {

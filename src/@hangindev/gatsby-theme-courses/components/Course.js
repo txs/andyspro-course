@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import ThemeCourse from '@hangindev/gatsby-theme-courses/src/components/Course';
-import { usePageValue } from '@hangindev/gatsby-theme-courses/src/context/PageContext';
+import Layout from '@hangindev/gatsby-theme-courses/src/components/Layout';
+import SEO from '@hangindev/gatsby-theme-courses/src/components/SEO';
+import Classroom from './Classroom';
+import { usePageValue } from '../context/PageContext';
 
 import { Helmet } from 'react-helmet';
 
@@ -26,8 +28,10 @@ function Course() {
 
   return (
     <div>
-
-      <ThemeCourse />
+      <Layout>
+        <SEO title={currentCourse.title} keywords={currentCourse.tags} />
+        <Classroom />
+      </Layout>
       <Helmet>
         <meta
           name="twitter:card"
@@ -53,3 +57,7 @@ function Course() {
 }
 
 export default Course;
+
+
+
+

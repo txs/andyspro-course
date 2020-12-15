@@ -4,9 +4,12 @@
     "gatsby": "^2.26.0",
     "gatsby-plugin-google-gtag": "^2.2.0",
     "gatsby-plugin-mdx": "^1.4.0",
+    "gatsby-plugin-sass": "^2.7.0",
     "moment": "^2.29.1",
+    "node-sass": "4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-icons": "^3.11.0"
+    "react-icons": "^3.11.0",
+    "swiper": "^6.4.1"
   }
 }
