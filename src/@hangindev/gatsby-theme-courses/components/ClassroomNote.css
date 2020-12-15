@@ -10,7 +10,12 @@
     font-size: 70%;
     line-height: 1.1;
 }
-.swiper-slide> h1, h2, h3, h4, h5, h6 {
+.swiper-slide> h1,
+.swiper-slide> h2,
+.swiper-slide> h3,
+.swiper-slide> h4,
+.swiper-slide> h5,
+.swiper-slide> h6 {
     margin-top: 0rem;
     margin-bottom: 0.8rem;
 }
