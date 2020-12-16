@@ -10,42 +10,43 @@
     font-size: 70%;
     line-height: 1.1;
 }
-.swiper-slide> h1,
-.swiper-slide> h2,
-.swiper-slide> h3,
-.swiper-slide> h4,
-.swiper-slide> h5,
-.swiper-slide> h6 {
+.swiper-slide h1,
+.swiper-slide h2,
+.swiper-slide h3,
+.swiper-slide h4,
+.swiper-slide h5,
+.swiper-slide h6 {
     margin-top: 0rem;
     margin-bottom: 0.8rem;
 }
-.swiper-slide> h1{
-    font-size: 1.4rem;
+.swiper-slide h1{
+    font-size: 1.2rem;
 }
-.swiper-slide> h2{
+.swiper-slide h2{
     font-size: 1.1rem;
 }
-.swiper-slide> h3{
+.swiper-slide h3{
     font-size: 1rem;
 }
 
-.swiper-slide> h4{
+.swiper-slide h4{
     font-size: 0.9rem;
 }
 
-.swiper-slide> li{
-    line-height: 1.1;
-    font-size: 70%;
+.swiper-slide ul{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
-.swiper-slide> ul{
-    margin-bottom: 0.7rem;
+
+
+
+.swiper-slide p,
+.swiper-slide li{
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
 }
-.swiper-slide> p,
-.swiper-slide> li{
-    margin-bottom: 0.7rem;
-}
-.swiper-slide> pre,
-.swiper-slide> code{
+.swiper-slide pre,
+.swiper-slide code{
     line-height: 1.1;
     font-size: 90%;
     margin-bottom: 0.8rem;

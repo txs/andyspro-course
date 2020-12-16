@@ -30,7 +30,7 @@ const Wrapper = styled.div`
 `;
 
 const SwipterFull = styled.div`
-width: 100vw;
+// width: 100vw;
 height: 400px;
 paddidng: 30px;
 margin-top: 30px;
