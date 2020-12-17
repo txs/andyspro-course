@@ -36,7 +36,8 @@
 - [x] Add slides widget 2020-12-16
 - [x] Add Description README.md 2020-12-18
 - [x] Add Sitemap [gatsby-plugin-advanced-sitemap](https://www.gatsbyjs.com/plugins/gatsby-plugin-advanced-sitemap/) @Done 2020-12-18 05:08:54
-- [ ] Submit Sitemap to Google
+- [x] Submit Sitemap to Google ＠Done 2020-12-18 06:06:08
+- [ ] Sync video list from YouTube
 
 
 ## 回饋方式
