@@ -29,7 +29,7 @@ function CoursesHeader() {
                     完整的課堂資訊與筆記
                 </li>
                 <li>
-                    <a style={{ color: '#1976D2' }} href="https://www.youtube.com/watch?v=gX3QMlgzRIg&list=PL1aVa65WLc52Aoti_Qhp0T-mgzcFskPve" target="_blank" >
+                    <a style={{ color: '#1976D2' }} href="https://www.youtube.com/watch?v=rTkfR9GGmnw&list=PL1aVa65WLc52Aoti_Qhp0T-mgzcFskPve" target="_blank" >
                         <span role="img" aria-label="video Camera">
                             ▶️
                         </span>{' '}
@@ -44,6 +44,11 @@ function CoursesHeader() {
                     用愛心來標記自己喜歡或是想上的課程
                 </li>
             </List>
+            <h6>
+                <a style={{ color: '#1976D2' }} href="https://github.com/txs/andyspro-course" target="_blank" >
+                    本站更新
+                </a>
+            </h6>
         </header>
     );
 }
