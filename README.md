@@ -6,7 +6,11 @@
 
 ## 目前你能夠在這裡學習到以下的課程 // Current Courses
 
-1. JavaScript 入門: https://course.andys.pro/Javascript-Intro/  // JS Intro
+1. JavaScript 入門: https://course.andys.pro/Javascript-Intro/   // JS Intro
+   
+[![SC2 Video](https://img.youtube.com/vi/rTkfR9GGmnw/0.jpg)](https://www.youtube.com/watch?v=rTkfR9GGmnw&list=PL1aVa65WLc52Aoti_Qhp0T-mgzcFskPve)
+
+☝️ 按圖可觀看 // ☝️ click to watch
 
 各類課程也會慢慢的加入 // Other courses will be added too!
 
