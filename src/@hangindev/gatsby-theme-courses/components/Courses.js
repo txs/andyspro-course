@@ -45,7 +45,7 @@ function Courses() {
         />
         <meta
           name="google-site-verification"
-          content={process.env.GOOGLE_SITE_VERIFICATION_ID}
+          content="72kTs25s2uMN5NP8_yy71vXqaiRbiT9-pMGpC_aA_Ic"
         />
       </Helmet>
     </>
