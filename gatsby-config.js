@@ -10,6 +10,7 @@ module.exports = {
         //     },
         // },
         `gatsby-plugin-sass`,
+        `gatsby-plugin-advanced-sitemap`,
         {
             resolve: `gatsby-plugin-google-gtag`,
             options: {

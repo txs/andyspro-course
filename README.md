@@ -35,7 +35,7 @@
 - [x] Add Google Analytics 2020-11-13
 - [x] Add slides widget 2020-12-16
 - [x] Add Description README.md 2020-12-18
-- [ ] Add Sitemap
+- [x] Add Sitemap [gatsby-plugin-advanced-sitemap](https://www.gatsbyjs.com/plugins/gatsby-plugin-advanced-sitemap/) @Done 2020-12-18 05:08:54
 - [ ] Submit Sitemap to Google
 
 
