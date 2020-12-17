@@ -17,12 +17,17 @@ function Courses() {
   return (
     <>
       <Layout>
-        <SEO title="安迪的 PRO 課程" />
+        <SEO title="Andy 的程式教學課程" />
         <Wrapper>
           <CoursesHeader />
           <h3>線上課程</h3>
           <CoursesList />
           <CoursesFooter />
+          <h6>
+            <a style={{ color: '#1976D2' }} href="https://github.com/txs/andyspro-course" target="_blank" >
+              本站更新
+            </a>
+          </h6>
         </Wrapper>
       </Layout>
       <Helmet>
@@ -37,6 +42,10 @@ function Courses() {
         <meta
           name="twitter:card"
           content="summary_large_image"
+        />
+        <meta
+          name="google-site-verification"
+          content={process.env.GOOGLE_SITE_VERIFICATION_ID}
         />
       </Helmet>
     </>

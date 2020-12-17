@@ -44,11 +44,7 @@ function CoursesHeader() {
                     用愛心來標記自己喜歡或是想上的課程
                 </li>
             </List>
-            <h6>
-                <a style={{ color: '#1976D2' }} href="https://github.com/txs/andyspro-course" target="_blank" >
-                    本站更新
-                </a>
-            </h6>
+
         </header>
     );
 }
