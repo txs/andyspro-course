@@ -24,10 +24,10 @@ module.exports = {
         },
     ],
     siteMetadata: {
-        title: `Andy 的程式教學課程`,
+        title: `Andy 的程式語言教學課程`,
         author: `@txs`,
         siteUrl: `https://course.andys.pro`,
-        description: `影音程式教學課程平台`,
+        description: `影音程式設計教學課程平台`,
         social: [
             {
                 name: `github`,

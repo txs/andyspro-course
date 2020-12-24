@@ -26,6 +26,7 @@ const Message = styled.h1`
 function Course() {
   const { currentCourse } = usePageValue();
 
+
   return (
     <div>
       <Layout>

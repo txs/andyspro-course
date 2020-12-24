@@ -19,7 +19,7 @@ function CoursesHeader() {
     return (
         <header>
             {/* Override me */}
-            <h1>歡迎來到 Andy 的程式教學課程</h1>
+            <h1>歡迎來到 Andy 的程式語言教學課程</h1>
             <h4>這些課程提供</h4>
             <List>
                 <li>

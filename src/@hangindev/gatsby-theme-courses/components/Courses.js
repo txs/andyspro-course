@@ -17,7 +17,7 @@ function Courses() {
   return (
     <>
       <Layout>
-        <SEO title="Andy 的程式教學課程" />
+        <SEO title="Andy 的程式語言教學課程" />
         <Wrapper>
           <CoursesHeader />
           <h3>線上課程</h3>
