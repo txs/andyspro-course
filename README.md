@@ -39,9 +39,16 @@
 - [x] Add Description README.md 2020-12-18
 - [x] Add Sitemap [gatsby-plugin-advanced-sitemap](https://www.gatsbyjs.com/plugins/gatsby-plugin-advanced-sitemap/) @Done 2020-12-18 05:08:54
 - [x] Submit Sitemap to Google ＠Done 2020-12-18 06:06:08
-- [ ] Sync video list from YouTube
+- [x] Lesson's page title is showing course title. so I fix it for better SEO for Google search. @Done 2020-12-24 23:29:16
+  - [ ] Facebook Open Graph SEO the title is without the site name
+- [x] Sync video list from YouTube @Done 2020-12-25 07:22:34
+- [ ] Tag for showing slideshow or not
 - [ ] Submit Sitemap to Microsoft
 - [ ] Submit Sitemap to Yandex
+- [x] Component title for slideshow @Done 2020-12-25 07:22:11
+- [x] Document title for ClassNotes @Done 2020-12-25 07:22:04
+- [ ] Make lesson number fit Instructor needs
+- [ ] Add Sections for lessons
   
 
 

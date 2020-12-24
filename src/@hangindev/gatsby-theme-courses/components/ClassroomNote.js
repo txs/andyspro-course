@@ -34,6 +34,7 @@ const SwipterFull = styled.div`
 height: 400px;
 paddidng: 30px;
 margin-top: 30px;
+margin-bottom: 60px;
 `;
 const SwiperWrapper = styled.div`
   width: 100vw;
@@ -41,6 +42,18 @@ const SwiperWrapper = styled.div`
   position: absolute;
   left:0;
   height: 300px;
+`;
+
+const SwiperHeader = styled.h3`
+  text-align: center;
+  margin: 0;
+  margin-bottom: 340px;
+  margin-top: -356px;
+`;
+const DocHeader = styled.h3`
+  text-align: center;
+  margin: 0;
+  padding-top:15px;
 `;
 
 
@@ -103,7 +116,6 @@ function ClassroomNote({ className }) {
       {currentLesson ?
         <SwipterFull>
           <SwiperWrapper>
-
             <Swiper
               // FIX this later, the pagination died after build into static!
               // pagination={{
@@ -123,6 +135,8 @@ function ClassroomNote({ className }) {
               }}
               mousewheel={{ enabled: true, forceToAxis: true }}
             >
+              <SwiperHeader className={className}>簡報</SwiperHeader>
+
               {mdxHtml.map((child) =>
                 <SwiperSlide dangerouslySetInnerHTML={{ __html: child }} />
               )}
@@ -132,7 +146,7 @@ function ClassroomNote({ className }) {
         : <></>}
 
       <Wrapper className={className}>
-
+        <DocHeader className={className}>講義</DocHeader>
         {mdxBody && <MDXRenderer>{mdxBody}</MDXRenderer>}
       </Wrapper>
       {/* <section data-markdown="">
